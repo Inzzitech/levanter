@@ -16,8 +16,8 @@
     },
     "SUDO": {
       "description": "admin",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "2348061693101"
     },
     "PREFIX": {
       "description": "prefix, check for more",
@@ -27,7 +27,7 @@
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": ""
+      "value": "levanter_18a110fa18509840b1b8e3370a98c39783"
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
@@ -36,16 +36,17 @@
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
-      "required": true
+      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Heroku account api key, https://dashboard.heroku.com/account",
       "required": true
+ "value": "HRKU-f49f3cb7-c4ac-4b9c-bc19-f934d752f631"
     },
     "RMBG_KEY": {
       "description": "API key from remove.bg, required for plugin rmbg",
-      "required": false,
-      "value": "null"
+      "required": true,
+      "value": "kaxTk8gxSd1yjQ1oE4ozH1R2"
     },
     "LANGUAG": {
       "description": "Default Language for tts or trt",
@@ -89,8 +90,8 @@
     },
     "SS_TOKEN": {
       "description": "token from https://app.screenshotapi.net/dashboard",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "1HXJ83A-MSVM96E-GV79R2B-249DY9Z"
     },
     "REJECT_CALL": {
       "description": "auto reject call, if set as true",
